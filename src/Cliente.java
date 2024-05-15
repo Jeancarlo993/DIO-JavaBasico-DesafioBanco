@@ -9,6 +9,15 @@ public class Cliente {
     private String nomeDoCliente;
     private double saldo;
 
+    public void sacarDinheiro(double saque){
+        saldo = saldo - saque;
+        System.out.println("Você sacou " + saque + ". Seu saldo agora é R$" + saldo);
+    }
+    public void depositarDinheiro(double deposito){
+        saldo = saldo + deposito;
+        System.out.println("Você depositou " + deposito + ". Seu saldo agora é R$" + saldo);
+    }
+
     public int getNumeroDaConta(){
         return numeroDaConta;
     }
