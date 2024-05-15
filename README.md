@@ -2,7 +2,7 @@
 ## Projeto feito para o desafio da DIO no curso básico de java. 
 ### Informações 
 * Usei alguns aspectos da orientação a objetos e da arquitetura MVC. 
-* Usei 3 classes:
+* Usei 3 classes:  
   ** A classe CaixaEletrônico é o equivalente a uma view do programa, utiliza os métodos da classe de controle e da classe de modelo.  
   ** A classe TerminalDoBanco é o equivalente um controller do programa, manipulando a classe Cliente.  
   ** A classe Cliente é possui a estrutura básica onde os dados são armazenados.  
